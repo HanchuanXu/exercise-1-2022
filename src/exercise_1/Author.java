@@ -42,7 +42,7 @@ public class Author {
 		}
 		content.append("HIndex:\t").append(calcHIndex());
 
-		return content.toString();
+		return content.toString();  //
 	}
 
 	public static void main(String[] args) {
